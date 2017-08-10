@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0942CE390ECC55BCA6B9FE68 /* Pods_RuqiiSocietyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C58800A05DF8B1A9B2A5CF4 /* Pods_RuqiiSocietyUITests.framework */; };
+		6B55908D1F36264D000FD7EC /* profileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B55908C1F36264D000FD7EC /* profileSettings.swift */; };
+		6B55908F1F362690000FD7EC /* servicesSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B55908E1F362690000FD7EC /* servicesSettings.swift */; };
+		6B5FBBE11F304F4B004CAFD5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5FBBE01F304F4B004CAFD5 /* AdSupport.framework */; };
+		6B7BAAFF1F25CC280054365E /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BAAFE1F25CC280054365E /* SignIn.swift */; };
+		6B7BAB011F25D56D0054365E /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BAB001F25D56D0054365E /* DesignableTextField.swift */; };
+		6B7BAB051F266A0D0054365E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BAB041F266A0D0054365E /* Settings.swift */; };
+		6B7BAB091F27293F0054365E /* CustomizedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BAB081F27293F0054365E /* CustomizedCell.swift */; };
+		6B8CD9A61F2EF868002F08E8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8CD9A51F2EF868002F08E8 /* Utilities.swift */; };
+		6BCB0BD71F3C905D0022D773 /* tset2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB0BD61F3C905D0022D773 /* tset2.swift */; };
+		6BE39A161F293AFD0054D95C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BE39A151F293AFD0054D95C /* GoogleService-Info.plist */; };
+		6BE420871F24939F00BD6797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE420861F24939F00BD6797 /* AppDelegate.swift */; };
+		6BE420891F24939F00BD6797 /* signupStep1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE420881F24939F00BD6797 /* signupStep1.swift */; };
+		6BE4208C1F24939F00BD6797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE4208A1F24939F00BD6797 /* Main.storyboard */; };
+		6BE4208E1F24939F00BD6797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE4208D1F24939F00BD6797 /* Assets.xcassets */; };
+		6BE420911F24939F00BD6797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE4208F1F24939F00BD6797 /* LaunchScreen.storyboard */; };
+		6BE4209C1F24939F00BD6797 /* RuqiiSocietyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4209B1F24939F00BD6797 /* RuqiiSocietyTests.swift */; };
+		6BE420A71F24939F00BD6797 /* RuqiiSocietyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE420A61F24939F00BD6797 /* RuqiiSocietyUITests.swift */; };
+		6BE420B71F24E2EE00BD6797 /* signupStep2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE420B61F24E2EE00BD6797 /* signupStep2.swift */; };
+		6BE420B91F24E6AC00BD6797 /* signupStep3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE420B81F24E6AC00BD6797 /* signupStep3.swift */; };
+		79AF75B9CF0C87AE2E541C26 /* Pods_RuqiiSocietyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AEC0F363D09C229D2A80F2 /* Pods_RuqiiSocietyTests.framework */; };
+		826DF6EED6FA7F009568AFA4 /* Pods_RuqiiSociety.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE5EC11639EFAFFD2D5DD63 /* Pods_RuqiiSociety.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BE420981F24939F00BD6797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BE4207B1F24939F00BD6797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BE420821F24939F00BD6797;
+			remoteInfo = RuqiiSociety;
+		};
+		6BE420A31F24939F00BD6797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BE4207B1F24939F00BD6797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BE420821F24939F00BD6797;
+			remoteInfo = RuqiiSociety;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B1C0E32103E3E7DA86A0AE4 /* Pods-RuqiiSocietyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuqiiSocietyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuqiiSocietyUITests/Pods-RuqiiSocietyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2AE5EC11639EFAFFD2D5DD63 /* Pods_RuqiiSociety.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuqiiSociety.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		405B9AF665D2E104C773A633 /* Pods-RuqiiSociety.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuqiiSociety.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuqiiSociety/Pods-RuqiiSociety.debug.xcconfig"; sourceTree = "<group>"; };
+		6B55908C1F36264D000FD7EC /* profileSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileSettings.swift; sourceTree = "<group>"; };
+		6B55908E1F362690000FD7EC /* servicesSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = servicesSettings.swift; sourceTree = "<group>"; };
+		6B5FBBE01F304F4B004CAFD5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		6B7BAAFE1F25CC280054365E /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		6B7BAB001F25D56D0054365E /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		6B7BAB041F266A0D0054365E /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		6B7BAB081F27293F0054365E /* CustomizedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedCell.swift; sourceTree = "<group>"; };
+		6B8CD9A51F2EF868002F08E8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		6BCB0BD61F3C905D0022D773 /* tset2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tset2.swift; sourceTree = "<group>"; };
+		6BE39A151F293AFD0054D95C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6BE420831F24939F00BD6797 /* RuqiiSociety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuqiiSociety.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE420861F24939F00BD6797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BE420881F24939F00BD6797 /* signupStep1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupStep1.swift; sourceTree = "<group>"; };
+		6BE4208B1F24939F00BD6797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BE4208D1F24939F00BD6797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BE420901F24939F00BD6797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BE420921F24939F00BD6797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE420971F24939F00BD6797 /* RuqiiSocietyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuqiiSocietyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE4209B1F24939F00BD6797 /* RuqiiSocietyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuqiiSocietyTests.swift; sourceTree = "<group>"; };
+		6BE4209D1F24939F00BD6797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE420A21F24939F00BD6797 /* RuqiiSocietyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuqiiSocietyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE420A61F24939F00BD6797 /* RuqiiSocietyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuqiiSocietyUITests.swift; sourceTree = "<group>"; };
+		6BE420A81F24939F00BD6797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE420B61F24E2EE00BD6797 /* signupStep2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = signupStep2.swift; path = ../signupStep2.swift; sourceTree = "<group>"; };
+		6BE420B81F24E6AC00BD6797 /* signupStep3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupStep3.swift; sourceTree = "<group>"; };
+		6C58800A05DF8B1A9B2A5CF4 /* Pods_RuqiiSocietyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuqiiSocietyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AEC0F363D09C229D2A80F2 /* Pods_RuqiiSocietyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuqiiSocietyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96912D796B3ADC16F8F9BF94 /* Pods-RuqiiSocietyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuqiiSocietyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuqiiSocietyTests/Pods-RuqiiSocietyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AF6BF0F7439C18F14AA1B1C /* Pods-RuqiiSocietyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuqiiSocietyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuqiiSocietyUITests/Pods-RuqiiSocietyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCA0E2D7DD84B68B539EA65B /* Pods-RuqiiSocietyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuqiiSocietyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuqiiSocietyTests/Pods-RuqiiSocietyTests.release.xcconfig"; sourceTree = "<group>"; };
+		E56D9947EF333435535D4113 /* Pods-RuqiiSociety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuqiiSociety.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuqiiSociety/Pods-RuqiiSociety.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BE420801F24939F00BD6797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5FBBE11F304F4B004CAFD5 /* AdSupport.framework in Frameworks */,
+				826DF6EED6FA7F009568AFA4 /* Pods_RuqiiSociety.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE420941F24939F00BD6797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AF75B9CF0C87AE2E541C26 /* Pods_RuqiiSocietyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE4209F1F24939F00BD6797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0942CE390ECC55BCA6B9FE68 /* Pods_RuqiiSocietyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52339F13EB56045F4D5386C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B5FBBE01F304F4B004CAFD5 /* AdSupport.framework */,
+				2AE5EC11639EFAFFD2D5DD63 /* Pods_RuqiiSociety.framework */,
+				82AEC0F363D09C229D2A80F2 /* Pods_RuqiiSocietyTests.framework */,
+				6C58800A05DF8B1A9B2A5CF4 /* Pods_RuqiiSocietyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BE4207A1F24939F00BD6797 = {
+			isa = PBXGroup;
+			children = (
+				6BE420851F24939F00BD6797 /* RuqiiSociety */,
+				6BE4209A1F24939F00BD6797 /* RuqiiSocietyTests */,
+				6BE420A51F24939F00BD6797 /* RuqiiSocietyUITests */,
+				6BE420841F24939F00BD6797 /* Products */,
+				8E3710A5407B5904DA58F944 /* Pods */,
+				52339F13EB56045F4D5386C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BE420841F24939F00BD6797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BE420831F24939F00BD6797 /* RuqiiSociety.app */,
+				6BE420971F24939F00BD6797 /* RuqiiSocietyTests.xctest */,
+				6BE420A21F24939F00BD6797 /* RuqiiSocietyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE420851F24939F00BD6797 /* RuqiiSociety */ = {
+			isa = PBXGroup;
+			children = (
+				6BE420861F24939F00BD6797 /* AppDelegate.swift */,
+				6BE420881F24939F00BD6797 /* signupStep1.swift */,
+				6BE420B81F24E6AC00BD6797 /* signupStep3.swift */,
+				6BE420B61F24E2EE00BD6797 /* signupStep2.swift */,
+				6B7BAAFE1F25CC280054365E /* SignIn.swift */,
+				6B7BAB041F266A0D0054365E /* Settings.swift */,
+				6BE4208A1F24939F00BD6797 /* Main.storyboard */,
+				6B7BAB081F27293F0054365E /* CustomizedCell.swift */,
+				6BE4208D1F24939F00BD6797 /* Assets.xcassets */,
+				6BE4208F1F24939F00BD6797 /* LaunchScreen.storyboard */,
+				6BE39A151F293AFD0054D95C /* GoogleService-Info.plist */,
+				6BE420921F24939F00BD6797 /* Info.plist */,
+				6B7BAB001F25D56D0054365E /* DesignableTextField.swift */,
+				6B8CD9A51F2EF868002F08E8 /* Utilities.swift */,
+				6B55908C1F36264D000FD7EC /* profileSettings.swift */,
+				6B55908E1F362690000FD7EC /* servicesSettings.swift */,
+				6BCB0BD61F3C905D0022D773 /* tset2.swift */,
+			);
+			path = RuqiiSociety;
+			sourceTree = "<group>";
+		};
+		6BE4209A1F24939F00BD6797 /* RuqiiSocietyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BE4209B1F24939F00BD6797 /* RuqiiSocietyTests.swift */,
+				6BE4209D1F24939F00BD6797 /* Info.plist */,
+			);
+			path = RuqiiSocietyTests;
+			sourceTree = "<group>";
+		};
+		6BE420A51F24939F00BD6797 /* RuqiiSocietyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BE420A61F24939F00BD6797 /* RuqiiSocietyUITests.swift */,
+				6BE420A81F24939F00BD6797 /* Info.plist */,
+			);
+			path = RuqiiSocietyUITests;
+			sourceTree = "<group>";
+		};
+		8E3710A5407B5904DA58F944 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				405B9AF665D2E104C773A633 /* Pods-RuqiiSociety.debug.xcconfig */,
+				E56D9947EF333435535D4113 /* Pods-RuqiiSociety.release.xcconfig */,
+				96912D796B3ADC16F8F9BF94 /* Pods-RuqiiSocietyTests.debug.xcconfig */,
+				DCA0E2D7DD84B68B539EA65B /* Pods-RuqiiSocietyTests.release.xcconfig */,
+				9AF6BF0F7439C18F14AA1B1C /* Pods-RuqiiSocietyUITests.debug.xcconfig */,
+				1B1C0E32103E3E7DA86A0AE4 /* Pods-RuqiiSocietyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BE420821F24939F00BD6797 /* RuqiiSociety */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE420AB1F2493A000BD6797 /* Build configuration list for PBXNativeTarget "RuqiiSociety" */;
+			buildPhases = (
+				34AE9A5C3175D6879690CC90 /* [CP] Check Pods Manifest.lock */,
+				6BE4207F1F24939F00BD6797 /* Sources */,
+				6BE420801F24939F00BD6797 /* Frameworks */,
+				6BE420811F24939F00BD6797 /* Resources */,
+				9E29A87E958044AC80A44998 /* [CP] Embed Pods Frameworks */,
+				A2AAC2D18E5058BCB2D0EF6D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RuqiiSociety;
+			productName = RuqiiSociety;
+			productReference = 6BE420831F24939F00BD6797 /* RuqiiSociety.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BE420961F24939F00BD6797 /* RuqiiSocietyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE420AE1F2493A000BD6797 /* Build configuration list for PBXNativeTarget "RuqiiSocietyTests" */;
+			buildPhases = (
+				AA1CDAB5ACC76BEEF1CB6AE3 /* [CP] Check Pods Manifest.lock */,
+				6BE420931F24939F00BD6797 /* Sources */,
+				6BE420941F24939F00BD6797 /* Frameworks */,
+				6BE420951F24939F00BD6797 /* Resources */,
+				0B1E7FB81BE4E1B07644FA4E /* [CP] Embed Pods Frameworks */,
+				B5B5032EDF6B1EC0300684D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BE420991F24939F00BD6797 /* PBXTargetDependency */,
+			);
+			name = RuqiiSocietyTests;
+			productName = RuqiiSocietyTests;
+			productReference = 6BE420971F24939F00BD6797 /* RuqiiSocietyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BE420A11F24939F00BD6797 /* RuqiiSocietyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE420B11F2493A000BD6797 /* Build configuration list for PBXNativeTarget "RuqiiSocietyUITests" */;
+			buildPhases = (
+				D9420F03F99B00F8C33EBA07 /* [CP] Check Pods Manifest.lock */,
+				6BE4209E1F24939F00BD6797 /* Sources */,
+				6BE4209F1F24939F00BD6797 /* Frameworks */,
+				6BE420A01F24939F00BD6797 /* Resources */,
+				DA8897B9BA67F9AAD1A77D1C /* [CP] Embed Pods Frameworks */,
+				3695F85E31BF2679008B8788 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BE420A41F24939F00BD6797 /* PBXTargetDependency */,
+			);
+			name = RuqiiSocietyUITests;
+			productName = RuqiiSocietyUITests;
+			productReference = 6BE420A21F24939F00BD6797 /* RuqiiSocietyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BE4207B1F24939F00BD6797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "abdllah aljohar";
+				TargetAttributes = {
+					6BE420821F24939F00BD6797 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
+					};
+					6BE420961F24939F00BD6797 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = 6BE420821F24939F00BD6797;
+					};
+					6BE420A11F24939F00BD6797 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = 6BE420821F24939F00BD6797;
+					};
+				};
+			};
+			buildConfigurationList = 6BE4207E1F24939F00BD6797 /* Build configuration list for PBXProject "RuqiiSociety" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BE4207A1F24939F00BD6797;
+			productRefGroup = 6BE420841F24939F00BD6797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BE420821F24939F00BD6797 /* RuqiiSociety */,
+				6BE420961F24939F00BD6797 /* RuqiiSocietyTests */,
+				6BE420A11F24939F00BD6797 /* RuqiiSocietyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BE420811F24939F00BD6797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE420911F24939F00BD6797 /* LaunchScreen.storyboard in Resources */,
+				6BE4208E1F24939F00BD6797 /* Assets.xcassets in Resources */,
+				6BE4208C1F24939F00BD6797 /* Main.storyboard in Resources */,
+				6BE39A161F293AFD0054D95C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE420951F24939F00BD6797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE420A01F24939F00BD6797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B1E7FB81BE4E1B07644FA4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuqiiSocietyTests/Pods-RuqiiSocietyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34AE9A5C3175D6879690CC90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3695F85E31BF2679008B8788 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuqiiSocietyUITests/Pods-RuqiiSocietyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E29A87E958044AC80A44998 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuqiiSociety/Pods-RuqiiSociety-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2AAC2D18E5058BCB2D0EF6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuqiiSociety/Pods-RuqiiSociety-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA1CDAB5ACC76BEEF1CB6AE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5B5032EDF6B1EC0300684D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuqiiSocietyTests/Pods-RuqiiSocietyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9420F03F99B00F8C33EBA07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA8897B9BA67F9AAD1A77D1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuqiiSocietyUITests/Pods-RuqiiSocietyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BE4207F1F24939F00BD6797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE420B91F24E6AC00BD6797 /* signupStep3.swift in Sources */,
+				6B7BAB011F25D56D0054365E /* DesignableTextField.swift in Sources */,
+				6BCB0BD71F3C905D0022D773 /* tset2.swift in Sources */,
+				6BE420891F24939F00BD6797 /* signupStep1.swift in Sources */,
+				6B7BAAFF1F25CC280054365E /* SignIn.swift in Sources */,
+				6B7BAB051F266A0D0054365E /* Settings.swift in Sources */,
+				6BE420871F24939F00BD6797 /* AppDelegate.swift in Sources */,
+				6B55908D1F36264D000FD7EC /* profileSettings.swift in Sources */,
+				6B8CD9A61F2EF868002F08E8 /* Utilities.swift in Sources */,
+				6B7BAB091F27293F0054365E /* CustomizedCell.swift in Sources */,
+				6B55908F1F362690000FD7EC /* servicesSettings.swift in Sources */,
+				6BE420B71F24E2EE00BD6797 /* signupStep2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE420931F24939F00BD6797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE4209C1F24939F00BD6797 /* RuqiiSocietyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE4209E1F24939F00BD6797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE420A71F24939F00BD6797 /* RuqiiSocietyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BE420991F24939F00BD6797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BE420821F24939F00BD6797 /* RuqiiSociety */;
+			targetProxy = 6BE420981F24939F00BD6797 /* PBXContainerItemProxy */;
+		};
+		6BE420A41F24939F00BD6797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BE420821F24939F00BD6797 /* RuqiiSociety */;
+			targetProxy = 6BE420A31F24939F00BD6797 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BE4208A1F24939F00BD6797 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE4208B1F24939F00BD6797 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BE4208F1F24939F00BD6797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE420901F24939F00BD6797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BE420A91F24939F00BD6797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BE420AA1F24939F00BD6797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BE420AC1F2493A000BD6797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405B9AF665D2E104C773A633 /* Pods-RuqiiSociety.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = RuqiiSociety/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruqii.RuqiiSociety;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6BE420AD1F2493A000BD6797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56D9947EF333435535D4113 /* Pods-RuqiiSociety.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = RuqiiSociety/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruqii.RuqiiSociety;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6BE420AF1F2493A000BD6797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96912D796B3ADC16F8F9BF94 /* Pods-RuqiiSocietyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuqiiSocietyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruqii.RuqiiSocietyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuqiiSociety.app/RuqiiSociety";
+			};
+			name = Debug;
+		};
+		6BE420B01F2493A000BD6797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA0E2D7DD84B68B539EA65B /* Pods-RuqiiSocietyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuqiiSocietyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruqii.RuqiiSocietyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuqiiSociety.app/RuqiiSociety";
+			};
+			name = Release;
+		};
+		6BE420B21F2493A000BD6797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF6BF0F7439C18F14AA1B1C /* Pods-RuqiiSocietyUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = RuqiiSocietyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruqii.RuqiiSocietyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RuqiiSociety;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6BE420B31F2493A000BD6797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B1C0E32103E3E7DA86A0AE4 /* Pods-RuqiiSocietyUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = RuqiiSocietyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruqii.RuqiiSocietyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RuqiiSociety;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BE4207E1F24939F00BD6797 /* Build configuration list for PBXProject "RuqiiSociety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE420A91F24939F00BD6797 /* Debug */,
+				6BE420AA1F24939F00BD6797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE420AB1F2493A000BD6797 /* Build configuration list for PBXNativeTarget "RuqiiSociety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE420AC1F2493A000BD6797 /* Debug */,
+				6BE420AD1F2493A000BD6797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE420AE1F2493A000BD6797 /* Build configuration list for PBXNativeTarget "RuqiiSocietyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE420AF1F2493A000BD6797 /* Debug */,
+				6BE420B01F2493A000BD6797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE420B11F2493A000BD6797 /* Build configuration list for PBXNativeTarget "RuqiiSocietyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE420B21F2493A000BD6797 /* Debug */,
+				6BE420B31F2493A000BD6797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BE4207B1F24939F00BD6797 /* Project object */;
+}
