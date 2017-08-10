@@ -16,7 +16,6 @@
 		6B7BAB051F266A0D0054365E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BAB041F266A0D0054365E /* Settings.swift */; };
 		6B7BAB091F27293F0054365E /* CustomizedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BAB081F27293F0054365E /* CustomizedCell.swift */; };
 		6B8CD9A61F2EF868002F08E8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8CD9A51F2EF868002F08E8 /* Utilities.swift */; };
-		6BE356B11F3CB0870083383C /* MMMM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE356B01F3CB0870083383C /* MMMM.swift */; };
 		6BE39A161F293AFD0054D95C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BE39A151F293AFD0054D95C /* GoogleService-Info.plist */; };
 		6BE420871F24939F00BD6797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE420861F24939F00BD6797 /* AppDelegate.swift */; };
 		6BE420891F24939F00BD6797 /* signupStep1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE420881F24939F00BD6797 /* signupStep1.swift */; };
@@ -60,7 +59,6 @@
 		6B7BAB041F266A0D0054365E /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		6B7BAB081F27293F0054365E /* CustomizedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedCell.swift; sourceTree = "<group>"; };
 		6B8CD9A51F2EF868002F08E8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		6BE356B01F3CB0870083383C /* MMMM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMMM.swift; sourceTree = "<group>"; };
 		6BE39A151F293AFD0054D95C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6BE420831F24939F00BD6797 /* RuqiiSociety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuqiiSociety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE420861F24939F00BD6797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -166,7 +164,6 @@
 				6B8CD9A51F2EF868002F08E8 /* Utilities.swift */,
 				6B55908C1F36264D000FD7EC /* profileSettings.swift */,
 				6B55908E1F362690000FD7EC /* servicesSettings.swift */,
-				6BE356B01F3CB0870083383C /* MMMM.swift */,
 			);
 			path = RuqiiSociety;
 			sourceTree = "<group>";
@@ -489,7 +486,6 @@
 				6BE420891F24939F00BD6797 /* signupStep1.swift in Sources */,
 				6B7BAAFF1F25CC280054365E /* SignIn.swift in Sources */,
 				6B7BAB051F266A0D0054365E /* Settings.swift in Sources */,
-				6BE356B11F3CB0870083383C /* MMMM.swift in Sources */,
 				6BE420871F24939F00BD6797 /* AppDelegate.swift in Sources */,
 				6B55908D1F36264D000FD7EC /* profileSettings.swift in Sources */,
 				6B8CD9A61F2EF868002F08E8 /* Utilities.swift in Sources */,

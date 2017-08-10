@@ -1,10 +1,3 @@
-//
-//  MMMM.swift
-//  RuqiiSociety
-//
-//  Created by abdllah aljohar on 10/08/2017.
-//  Copyright © 2017 abdllah aljohar. All rights reserved.
-//
 
 import UIKit
 
@@ -22,14 +15,5 @@ class MMMM: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
