@@ -107,7 +107,7 @@ class SignIn: UIViewController {
     
     
     @IBAction func signInClicked(_ sender: Any) {
-        print("HI IAM MAHA")
+        
         var flag = true
         func clearLabelsWithflushing(){
             self.emailErrorLabel.isHidden = true
