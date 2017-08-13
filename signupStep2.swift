@@ -22,6 +22,8 @@ class signupStep2: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
         super.viewDidLoad()
         print(email)
         print(password)
+        print("Mahaaa")
+        print("hhhhhhh")
 
         // Do any additional setup after loading the view.
     }
